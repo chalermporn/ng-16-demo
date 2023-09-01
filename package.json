@@ -1,12 +1,19 @@
 {
   "name": "ng-16-demo",
   "version": "0.0.0",
+  "deployDate": "01/09/2023_19:36:21",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --ssl",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "version": "./version.sh",
+    "release": "standard-version",
+    "release:first-release": "standard-version --first-release",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +40,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "standard-version": "^9.5.0",
     "typescript": "~5.1.3"
   }
 }
