@@ -4,7 +4,8 @@
   "deployDate": "01/09/2023_19:36:21",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --ssl",
+    "start": "ng serve",
+    "start:ssl": "ng serve --ssl",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "jest",
