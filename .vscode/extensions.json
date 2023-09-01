@@ -3,6 +3,8 @@
   "recommendations": [
     "angular.ng-template",
     "davidanson.vscode-markdownlint",
-    "phoihos.git-commit-message-editor"
+    "phoihos.git-commit-message-editor",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
   ]
 }
